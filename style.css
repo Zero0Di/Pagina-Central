@@ -1,0 +1,50 @@
+body{
+    font-size: 15pt;
+    text-align: center;
+    color: #9E9E9E;
+    background-image: linear-gradient(to top, #AFAFAF, black);
+    height: 150vh;
+    background-repeat: no-repeat;
+}
+.parte2 h1{
+  background-image: linear-gradient(to top, #9F9F9F 50%, #282828);
+  height: 30vh;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+  font-size: 20pt;
+}
+button{
+  color: white;
+  background-image: linear-gradient(to bottom, black, #292929);
+  pointer-events: inherit;
+  cursor: pointer;
+  width: 140px;
+}
+.versao{
+  color: #212121;
+}
+a{
+  font-size: 13pt;
+  text-decoration: none;
+  color: white;
+}
+.opcoes{
+  height: 25px;
+  border-radius: 50px;
+  border-color: rgb(17, 17, 17);
+
+}
+#mudarOpcoes{
+  height: 30px;
+  width: 200px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(to top, gray, rgb(65, 65, 65));
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(59, 59, 59);
+  border-radius: 25px;
+}
